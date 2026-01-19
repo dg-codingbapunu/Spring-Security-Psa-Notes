@@ -93,6 +93,11 @@ Encourage users to use strong, unique passwords (e.g., a combination of uppercas
 
 7. JWT (JSON Web Token)
 
+Q- What is Configuration File?
+
+A configuration file stores external settings like database details, ports, usernames, passwords, and environment values used by an application at runtime.
+configuration files are loaded automatically at application startup and their values are used by the IoC container while creating beans.
+
 
 
 Example 1:
@@ -1241,6 +1246,7 @@ public class AppSecurityConfig {
 
 
 }
+
 
 
 
