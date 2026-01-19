@@ -3,7 +3,9 @@
 ##############################################
 1. Authentication: Verifies who you are (e.g., username & password, JWT etc.).
 
-2. Authorization: Determines what you are allowed to do (e.g., access control for URLs, methods, etc.).
+2. Authorization: Determines what you are allowed to do (e.g., access control for URLs, methods, etc.) 
+ every user login which feature he can accsess and which cannot.
+.
 
 3. Protection Against Common Security Threats
 
@@ -1239,6 +1241,7 @@ public class AppSecurityConfig {
 
 
 }
+
 
 
 
